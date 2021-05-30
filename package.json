@@ -1,0 +1,24 @@
+{
+  "name": "dev-portfolio-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "dev-portfolio-blog",
+  "author": "peter-j-schmidt",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.4.1",
+    "gatsby-plugin-netlify-cms": "^5.6.0",
+    "netlify-cms-app": "^2.15.13",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
