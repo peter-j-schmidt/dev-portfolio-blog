@@ -7,3 +7,5 @@ const NavBar = () => {
         </main>
     )
 }
+
+export default NavBar;
