@@ -4,9 +4,9 @@
     display: flex;
     align-items: center;
     border-bottom: 0px;
-    background: blue;
+    background: rgb(2, 2, 95);
     font-weight: 400;
-    color: white;
+    color: rgb(160, 160, 160);
     padding: 0rem 5.6rem;
     margin-bottom: 0;
     top: 0;
@@ -14,4 +14,11 @@
     bottom: 0;
     right: 0;
     z-index: -1;
+}
+
+#about {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    border-bottom: 0px;
 }
