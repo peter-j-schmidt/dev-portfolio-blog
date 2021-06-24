@@ -10,13 +10,13 @@ export default function Hero() {
             <Container>
                 <Row>
                     <Col md={6} sm={12}>
-                        
-                        <StaticImage src="../images/Peter_Golden_Gate.JPG" alt="Profile Picture" />
-                        
+                        <div>
+                            <StaticImage src="../images/Peter_Golden_Gate.JPG" alt="Profile Picture" objectFit="contain" />
+                        </div>
                     </Col>
                     <Col md={6} sm={12}>
                         <div>
-                            <title>Designer, Developer, Data Science</title>
+                            <h1>Designer, Developer, Data Scientist</h1>
                         </div>
                     </Col>
                 </Row>
