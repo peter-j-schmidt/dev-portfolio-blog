@@ -14,6 +14,17 @@
     bottom: 0;
     right: 0;
     z-index: -1;
+
+    .hero-wrapper {
+
+        &__image {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
 }
 
 #about {
@@ -21,4 +32,7 @@
     height: 100vh;
     display: flex;
     border-bottom: 0px;
+
+    
 }
+

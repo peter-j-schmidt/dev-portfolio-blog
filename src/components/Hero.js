@@ -8,14 +8,14 @@ export default function Hero() {
     return (
         <section id="hero" className="jumbotron">
             <Container>
-                <Row>
+                <Row className="hero-wrapper">
                     <Col md={6} sm={12}>
-                        <div>
-                            <StaticImage src="../images/Peter_Golden_Gate.JPG" alt="Profile Picture" objectFit="contain" />
+                        <div className="hero-wrapper__image" >
+                            <StaticImage src="../images/Peter_Golden_Gate.JPG" alt="Profile Picture" />
                         </div>
                     </Col>
                     <Col md={6} sm={12}>
-                        <div>
+                        <div classname="hero-wrapper__image">
                             <h1>Designer, Developer, Data Scientist</h1>
                         </div>
                     </Col>
@@ -23,4 +23,5 @@ export default function Hero() {
             </Container>
         </section>
     )
+
 }
