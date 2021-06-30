@@ -10,12 +10,12 @@ export default function Hero() {
             <Container>
                 <Row className="hero-wrapper">
                     <Col md={6} sm={12}>
-                        <div className="hero-wrapper__image" >
-                            <StaticImage src="../images/Peter_Golden_Gate.JPG" alt="Profile Picture" />
+                        <div className="hero-wrapper-image" >
+                            <StaticImage src="../images/Peter_Golden_Gate.JPG" width={1000} alt="Profile Picture" />
                         </div>
                     </Col>
                     <Col md={6} sm={12}>
-                        <div classname="hero-wrapper__image">
+                        <div classname="hero-wrapper-image">
                             <h1>Designer, Developer, Data Scientist</h1>
                         </div>
                     </Col>
