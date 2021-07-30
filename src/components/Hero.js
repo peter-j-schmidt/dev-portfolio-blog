@@ -7,11 +7,11 @@ import { StaticImage } from 'gatsby-plugin-image'
 export default function Hero() {
     return (
         <section id="hero" className="jumbotron">
-            <Container>
+            <Container fluid>
                 <Row className="hero-wrapper">
-                    <Col md={6} sm={12}>
+                    <Col md={6} sm={12} className="image-column">
                         <div className="hero-wrapper-image" >
-                            <StaticImage src="../images/Peter_Golden_Gate.JPG" width={1000} alt="Profile Picture" />
+                            <StaticImage className="gatsbyImage" src="../images/Peter_Golden_Gate.JPG" alt="Profile Picture" layout="constrained" objectFit="contain" />
                         </div>
                     </Col>
                     <Col md={6} sm={12}>

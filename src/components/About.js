@@ -1,15 +1,24 @@
 import React from 'react'
 
-import { Container } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 import { StaticImage } from 'gatsby-plugin-image'
+
+import AboutImage from './AboutImage'
 
 export default function About() {
     return (
         
-         <div>   
-            <h1>About Me</h1>
-            <StaticImage src="https://hookagency.com/wp-content/uploads/2018/02/funnyweird-stock-image.jpg" objectFit={"contained"} alt="Profile Picture" />  
+         <div id="about">
+             <Container fluid >
+                 <Row className="justify-content-center align-items-center">
+                     <Col md={12} >
+                        
+                        <AboutImage />
+                        
+                    </Col>
+                </Row> 
+            </Container>
         </div>
             
         
