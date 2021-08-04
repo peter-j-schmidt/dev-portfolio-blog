@@ -2,6 +2,8 @@ import * as React from 'react'
 import BlogPage from './BlogPage'
 import Home from './Home'
 
+import { Container, Row, Col } from 'react-bootstrap'
+
 import Hero from './Hero'
 import NavBar from './NavBar'
 import About from './About'
