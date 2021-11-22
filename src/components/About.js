@@ -12,7 +12,13 @@ export default function About() {
          <div id="about">
              <Container fluid >
                  <Row className="justify-content-center align-items-center">
-                     <Col md={12} >
+                     <Col md={6} >
+                        
+                        <AboutImage />
+                        
+                    </Col>
+
+                    <Col md={6} >
                         
                         <AboutImage />
                         
