@@ -1,8 +1,10 @@
 import React from 'react'
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 
 import { StaticImage } from 'gatsby-plugin-image'
+
+import italy_image from '../images/Italy_Headshot.jpg'
 
 import AboutImage from './AboutImage'
 
@@ -20,7 +22,7 @@ export default function About() {
 
                     <Col md={6} >
                         
-                        <AboutImage />
+                        <Image src={italy_image} width="450" height="600" roundedCircle />
                         
                     </Col>
                 </Row> 
