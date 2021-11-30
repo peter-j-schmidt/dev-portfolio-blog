@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "dev-portfolio-blog",
+    title: "My Portfolio Blog",
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
@@ -15,5 +15,20 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts/`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-page-creator",
+      options: {
+        path: `${__dirname}/src/posts`,
+      },
+    },
+    `gatsby-plugin-mdx`,
   ],
 };
