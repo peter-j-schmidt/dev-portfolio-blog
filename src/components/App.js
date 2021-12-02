@@ -9,13 +9,14 @@ import NavBar from './NavBar'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
+import BootstrapNavbar from './BootstrapNavbar'
 
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 const App = () => {
     return (
         <>
-            <NavBar />
+            <BootstrapNavbar />
             <About />
             <Projects />
             <Contact />
