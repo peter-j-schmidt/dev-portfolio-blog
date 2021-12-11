@@ -12,8 +12,6 @@ collections:
     folder: 'content/blog'
     create: true
     slug: '{{slug}}'
-    media_folder: ''
-    public_folder: ''
     path: '{{slug}}'
     editor:
       preview: false
@@ -21,4 +19,5 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
