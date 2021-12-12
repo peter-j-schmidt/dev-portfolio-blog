@@ -11,8 +11,6 @@ collections:
     label: 'Blog'
     folder: 'content/blog'
     create: true
-    slug: '{{slug}}'
-    path: '{{slug}}'
     editor:
       preview: false
     fields:
