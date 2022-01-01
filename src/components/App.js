@@ -16,10 +16,7 @@ import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 const App = () => {
     return (
         <>
-            <BootstrapNavbar />
             <About />
-            <Projects />
-            <Contact />
         </>
     );
 }

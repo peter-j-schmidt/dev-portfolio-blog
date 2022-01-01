@@ -1,8 +1,8 @@
 import * as React from "react"
 
-import App from '../components/App'
-
 import Layout from '../components/Layout'
+
+import BootstrapNavbar from '../components/BootstrapNavbar'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -10,14 +10,14 @@ import '../style/main.scss'
 
 
 // markup
-const IndexPage = () => {
+const BlogIndex = () => {
   return (
     <>
       <Layout>
-        <App />
+          
       </Layout>
     </>
   )
 }
 
-export default IndexPage
+export default BlogIndex

@@ -7,7 +7,7 @@ export default function BootstrapNavbar() {
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                <Navbar.Brand href="#home">Peter J. Schmidt</Navbar.Brand>
+                <Navbar.Brand href="/">Peter J. Schmidt</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
@@ -15,7 +15,7 @@ export default function BootstrapNavbar() {
                     </Nav>
                     <Nav>
                         <Nav.Link href="#projects" >Projects</Nav.Link>
-                        <Nav.Link href="#blog" >Blog</Nav.Link>
+                        <Nav.Link href="/blog" >Blog</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 </Container>
