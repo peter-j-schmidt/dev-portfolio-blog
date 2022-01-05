@@ -8,7 +8,7 @@ image: assets/max-duzij-qajjk-un3bi-unsplash.jpg
 ---
 # Free Resources to Learn to Program in 2022
 
-
+![](assets/max-duzij-qajjk-un3bi-unsplash.jpg)
 
 
 2022 has arrived, and with a new year comes a new opportunity to reflect on the future. As we enter the third year of the Covid-19 pandemic, you may have noticed that many people around the world are taking this opportunity to reconsider their career paths and life priorities, and to seek out better opportunities.
