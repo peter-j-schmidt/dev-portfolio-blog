@@ -48,6 +48,7 @@ async function getPageData(graphql) {
             internal {
                 content
             }
+            html
           }
         }
       }
