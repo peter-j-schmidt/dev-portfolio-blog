@@ -1,22 +1,35 @@
 import * as React from 'react'
 import { graphql } from "gatsby"
 
+import { Container, Row, Col } from 'react-bootstrap'
+
+import Layout from './Layout'
+
 const BlogPage = ({ data, pageContext }) => {
 
     const { post } = pageContext
+
+    const  Title  = post.frontmatter.title
+    const  Description  = post.frontmatter.description
+    const  html  = post.html
+
     
     return (
         <>
-            <div>
-                Title: { data.markdownRemark.frontmatter.title }
-                Description: { data.markdownRemark.frontmatter.description }
-                Content: { data.markdownRemark.internal.content } 
-            </div>
-            <div>
-                Title: { post.frontmatter.title }
-                Description: { post.frontmatter.description }
-                Content: { post.internal.content }
-            </div>
+          <Layout>
+
+            <Container fluid>
+              <Row variant="secondary" className=" vh-100 justify-content-center align-items-center">
+                <Col>
+                  <h1>{ Title }</h1>
+
+                  <div className="blogpost" dangerouslySetInnerHTML={{ __html: html }} />
+                </Col>
+              </Row>
+            </Container>
+
+          </Layout>
+            
         </>
         
     )
@@ -34,10 +47,12 @@ export const BlogPostTemplateQuery = graphql`
         description
         title
         image
+        date(formatString: "MMMM DD, YYYY")
       }
       internal {
         content
       }
+      html
     }
   }
 `

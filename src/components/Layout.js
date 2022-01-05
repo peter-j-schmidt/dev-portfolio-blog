@@ -2,12 +2,15 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
+import { Container, Row, Col } from 'react-bootstrap'
+
 import BootstrapNavbar from './BootstrapNavbar'
 
 import Footer from './Footer'
 
 export default function Layout({children}) {
     return (
+
         <>
             <Helmet>
                 <meta charSet="utf-8" />

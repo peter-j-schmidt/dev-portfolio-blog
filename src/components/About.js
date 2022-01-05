@@ -23,8 +23,10 @@ export default function About() {
 
                 <Col md={6} >
                     
+
                     <div>
-                        <p>Hello, world! I'm Peter, a self-taught developer who enjoys learning about computer science, artificial intelligence, and data analytics. On this website, I'll write about the things I am learning and show you the projects I'm working on. Check in regularly to see my progress in this fascinating feild!</p>
+                        <h2>Hello, World!</h2>
+                        <p>I'm Peter, a self-taught developer who enjoys learning about computer science, artificial intelligence, and data analytics. On this website, I'll write about the things I am learning and show you the projects I'm working on. Check in regularly to see my progress in this fascinating feild!</p>
                     </div>
                     
                 </Col>

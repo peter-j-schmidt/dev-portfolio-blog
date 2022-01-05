@@ -14,7 +14,7 @@ export default function BootstrapNavbar() {
                     
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#projects" >Projects</Nav.Link>
+                        <Nav.Link href="/projects" >Projects</Nav.Link>
                         <Nav.Link href="/blog" >Blog</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
