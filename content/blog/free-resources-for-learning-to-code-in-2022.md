@@ -6,14 +6,19 @@ description: A list of some of the most effective resources for learning to code
   that I've found so far
 image: assets/max-duzij-qajjk-un3bi-unsplash.jpg
 ---
-# Free Resources to Learn to Program in 2022
 
-![](assets/max-duzij-qajjk-un3bi-unsplash.jpg)
+<div align="center"># Free Resources to Learn to Program in 2022</div>
+
+
+<div align="center">![](static/assets/max-duzij-qajjk-un3bi-unsplash.jpg)</div>
+
 
 
 2022 has arrived, and with a new year comes a new opportunity to reflect on the future. As we enter the third year of the Covid-19 pandemic, you may have noticed that many people around the world are taking this opportunity to reconsider their career paths and life priorities, and to seek out better opportunities.
 
 One of the most popular career trends over the last few years has been to learn how to code. I myself began learning to code at the start of the pandemic, and have come to enjoy the challenge of learning new languages and building projects in my free time. Whether learning in order to change careers or just to enhance a current job, there are a plethora of free resources available to the beginning learner out there. Here is a list of the best resources I’ve found so far.
+
+
 
 ## Udemy
 
@@ -22,6 +27,8 @@ Udemy is a really great platform for learning any topic. Creators from around th
 * [Beginner Course on Programming and Coding Fundamentals](https://www.udemy.com/course/beginner-course-on-programming/)
 * [Programming with Python All in One](https://www.udemy.com/course/programming-foundation-python/)
 * [Programming for Non-Programmers](https://www.udemy.com/course/programming-for-non-programmers-a-fun-way/)
+
+
 
 ## Coursera
 
@@ -35,6 +42,8 @@ In addition to those paid options, Coursera features many free courses geared to
 
 I am personally working on Andrew Ng’s Machine Learning course, and I appreciate the depth of each lecture and Dr. Ng’s deep dives into the theory behind machine learning.
 
+
+
 ## EdX
 
 Similar to Coursera, EdX is another online education platform that offers courses and programs from top institutions from around the world. In addition to degree programs and certifications, EdX offers free specialization programs in topics like machine learning, web development, and data analytics. Although it’s possible to earn a Verified Certificate for a fee, these courses can be also audited free of charge (and even feature some courses that have a paywall on other websites).
@@ -47,6 +56,8 @@ Here are a few of the site’s featured courses:
 
 I used this site extensively when I first began learning to code, and took Harvard’s CS50 on the platform (more on that later on).
 
+
+
 ## YouTube
 
 YouTube is a great resource for learning how to code. There are innumerable tutorials available on every topic in computer science, from the most popular languages to the most essential algorithms and data structures. As long as you don’t mind having a few ads interrupt your lesson, this resource is free and easy to use (although, many creators also offer their own paid, ad-free courses). Here are a few of my favorite channels:
@@ -58,6 +69,8 @@ YouTube is a great resource for learning how to code. There are innumerable tuto
 
 Another plus about this platform is that there are many creators on it that cover technologies and topics that aren’t conventionally covered on other platforms, such as IoT development with Arduino and Raspberry Pi, or crypto mining and blockchain development with Solidity.
 
+
+
 ## FreeCodeCamp
 
 FreeCodeCamp is an all-encompassing website with courses on every topic in computer science, from Web Development to Data Science to Cybersecurity. The website offers free certificates in each specialization, with courses that break down the material into small, bite-sized lessons. FreeCodeCamp uses a web-based platform where students complete each lesson by filling in the blank spaces on pre-written code. After finishing all lessons in a course, the student is tasked with building one or more small projects in order to earn a certificate. 
@@ -67,6 +80,7 @@ The website also hosts a rapidly growing list of tutorials and courses produced 
 This is one of the best free resources for learning to code that I’ve found online. The fill-in-the-blank approach for lesson structure allows students to learn at their own pace in small chunks without getting overwhelmed. As FreeCodeCamp’s reputation grows, so does the weight of a certificate of completion from them. But, more importantly, the courses provided give students the chance to work on practical projects that can be featured in a portfolio, which is arguably better than certificates when it comes to finding a job.
 
 * [FreeCodeCamp](https://freecodecamp.org)
+
 
 
 ## CS50
@@ -80,6 +94,7 @@ The course is divided into sections based on each topic covered, and students ar
 One of the main benefits of this course (besides the fact that it’s free) is that it has a structured nature, but gives students the freedom to solve problems on their own. When starting on your journey in code, it can be hard to keep track of the plethora of topics that you need to learn in order to master the art of coding. This course structures each section in a logical way, building upon knowledge learned in the previous section. And instead of just filling in the blank, the course’s problem sets give you an opportunity to develop your own solution to a problem from the get-go.
 
 * [CS50x](https://cs50.harvard.edu/x/2022/)
+
 
 
 I’ve found that these are the best resources available for those wishing to learn to code without going back to school or paying expensive tuition for certificates. By combining these resources, you can easily build a solid foundation in computer science and software development, and gain experience building real projects along the way.
