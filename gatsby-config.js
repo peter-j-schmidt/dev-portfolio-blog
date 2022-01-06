@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-netlify-cms",
+    "gatsby-plugin-netlify-cms-paths",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
@@ -12,7 +13,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/static/assets`,
       },
     },
     {     
