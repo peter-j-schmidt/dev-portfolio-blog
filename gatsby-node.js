@@ -44,6 +44,11 @@ async function getPageData(graphql) {
                 title
                 date
                 description
+                image {
+                  childImageSharp {
+                    gatsbyImageData(width: 200)
+                  }
+                }
             }
             internal {
                 content
