@@ -7,10 +7,6 @@ description: A list of some of the most effective resources for learning to code
 image: assets/max-duzij-qajjk-un3bi-unsplash.jpg
 ---
 
-<div align="center"># Free Resources to Learn to Program in 2022</div>
-
-
-<div align="center">![](static/assets/max-duzij-qajjk-un3bi-unsplash.jpg)</div>
 
 
 
