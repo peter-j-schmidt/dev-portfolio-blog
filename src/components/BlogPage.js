@@ -13,17 +13,22 @@ const BlogPage = ({ data, pageContext }) => {
     const  Description  = post.frontmatter.description
     const  html  = post.html
 
+    const styleObj = {
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      paddingLeft: '25%',
+      paddingRight: '25%',
+    };
+
     
     return (
         <>
           <Layout>
 
             <Container fluid>
-              <Row variant="secondary" className=" vh-100 justify-content-center align-items-center">
+              <Row variant="secondary" className="justify-content-center align-items-center">
                 <Col>
-                  <h1>{ Title }</h1>
-
-                  <div className="blogpost" dangerouslySetInnerHTML={{ __html: html }} />
+                  <div className="blogpost" dangerouslySetInnerHTML={{ __html: html }} style={styleObj} />
                 </Col>
               </Row>
             </Container>
@@ -37,22 +42,3 @@ const BlogPage = ({ data, pageContext }) => {
 
 export default BlogPage
 
-export const BlogPostTemplateQuery = graphql`
-  query BlogPostTemplateQuery($slug: String) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        description
-        title
-        image
-        date(formatString: "MMMM DD, YYYY")
-      }
-      internal {
-        content
-      }
-      html
-    }
-  }
-`
