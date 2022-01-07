@@ -4,6 +4,8 @@ import Layout from '../components/Layout'
 
 import PostLink from '../components/Layout'
 
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
+
 import { Container, Row, Col } from 'react-bootstrap'
 
 import { graphql, Link } from 'gatsby'
@@ -37,6 +39,7 @@ const BlogIndex = ({data}) => {
                       <em>published on</em> {frontmatter.date}
                       </small>
                       <p>{frontmatter.description}</p>
+                      <GatsbyImage image={getImage(frontmatter.image)} />
                       <br />
                   </div>
                 </Col>
@@ -63,6 +66,16 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            image {
+              childImageSharp {
+                gatsbyImageData(
+                  width: 500
+                  blurredOptions: {width: 100}
+                  placeholder: BLURRED
+                  transformOptions: {cropFocus: CENTER}
+                )
+              }
+            }
           }
         }
       }
