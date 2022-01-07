@@ -12,7 +12,7 @@ const BlogPage = ({ pageContext }) => {
 
     const  Title  = post.frontmatter.title
     const  Description  = post.frontmatter.description
-    const Image = getImage(post.frontmatter.images)
+    const Image = getImage(post.frontmatter.image)
     const  html  = post.html
 
     const styleObj = {
@@ -22,17 +22,24 @@ const BlogPage = ({ pageContext }) => {
       paddingRight: '25%',
     };
 
+    const imgStyleObj = {
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      paddingLeft: '25%',
+      paddingRight: '25%',
+    }
+
     
     return (
         <>
           <Layout>
 
             <Container fluid>
-              <Row variant="secondary" className="justify-content-center align-items-center">
-                <Col className="justify-content-center">
-                  <h1 className=" d-flex justify-content-center align-items-center py-3 my-3">{Title}</h1>
+              <Row variant="secondary" className="d-flex justify-content-center align-items-center">
+                <Col>
+                  <h1 className=" d-flex justify-content-center align-items-center py-5 my-5">{Title}</h1>
 
-                  <GatsbyImage image={Image} alt="Image, taken from above, of a person sitting in front of three computer monitors." />
+                  <p><GatsbyImage image={Image} alt="Image" className="pb-5 my-5"/></p>
 
                   <div className="blogpost" dangerouslySetInnerHTML={{ __html: html }} style={styleObj} />
                 </Col>
