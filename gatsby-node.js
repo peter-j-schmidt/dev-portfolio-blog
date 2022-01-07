@@ -46,7 +46,12 @@ async function getPageData(graphql) {
                 description
                 image {
                   childImageSharp {
-                    gatsbyImageData(width: 200)
+                    gatsbyImageData(
+                      width: 500
+                      blurredOptions: {width: 100}
+                      placeholder: BLURRED
+                      transformOptions: {cropFocus: CENTER}
+                    )
                   }
                 }
             }
