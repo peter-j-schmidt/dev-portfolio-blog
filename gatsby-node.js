@@ -41,6 +41,7 @@ async function getPageData(graphql) {
               slug
             }
             frontmatter {
+              caption
                 title
                 date
                 description
