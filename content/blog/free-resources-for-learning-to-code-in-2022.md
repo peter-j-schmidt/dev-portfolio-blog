@@ -5,10 +5,7 @@ date: 2022-01-05T02:09:11.606Z
 description: A list of some of the most effective resources for learning to code
   that I've found so far
 image: assets/max-duzij-qajjk-un3bi-unsplash.jpg
-caption: 'Photo by <a
-  href="https://unsplash.com/@max_duz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Max
-  Duzij</a> on <a
-  href="https://unsplash.com/s/photos/programming?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>   '
+caption: "Photo by Max Duzij on Unsplash   "
 ---
 
 
