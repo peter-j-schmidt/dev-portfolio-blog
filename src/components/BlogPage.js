@@ -16,7 +16,7 @@ const BlogPage = ({ pageContext }) => {
     const  Description  = post.frontmatter.description
     const Image = getImage(post.frontmatter.image)
     const  html  = post.html
-    const caption = "N/A"
+    const caption = post.frontmatter.caption
 
     const styleObj = {
       marginLeft: 'auto',
