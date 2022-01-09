@@ -31,15 +31,13 @@ const BlogIndex = ({data}) => {
             <Container fluid>
               <Row variant="secondary" className="vh-100 justify-content-center align-items-center">
                 <Col className="vh-50">
-                  <div key={fields.slug}>
-                    <Link to={`/blog${fields.slug}`}>{frontmatter.title}</Link>
-                      &nbsp;
+                  <div key={fields.slug} className="d-flex flex-column justify-content-center align-items-center">
+                    <Link to={`/blog${fields.slug}`} style={{ color: 'black', textDecoration: 'none' }}><h2>{frontmatter.title}</h2></Link>
                       <small>
-                      {' '}
-                      <em>published on</em> {frontmatter.date}
+                        <em>Article published on</em> {frontmatter.date}
                       </small>
                       <p>{frontmatter.description}</p>
-                      <GatsbyImage image={getImage(frontmatter.image)} />
+                      <Link to={`/blog${fields.slug}`}><GatsbyImage image={getImage(frontmatter.image)} /></Link>
                       <br />
                   </div>
                 </Col>
