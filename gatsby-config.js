@@ -7,7 +7,7 @@ module.exports = {
     "gatsby-plugin-netlify-cms-paths",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
-    `gatsby-plugin-sharp`,
+    'gatsby-plugin-sharp',
     "gatsby-transformer-sharp",
     {
       resolve: `gatsby-source-filesystem`,
