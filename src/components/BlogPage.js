@@ -4,6 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 
+import BlogImage from './BlogImage'
+
 import Layout from './Layout'
 
 const BlogPage = ({ pageContext }) => {
@@ -14,6 +16,7 @@ const BlogPage = ({ pageContext }) => {
     const  Description  = post.frontmatter.description
     const Image = getImage(post.frontmatter.image)
     const  html  = post.html
+    const caption = "N/A"
 
     const styleObj = {
       marginLeft: 'auto',
@@ -36,12 +39,12 @@ const BlogPage = ({ pageContext }) => {
 
             <Container fluid>
               <Row variant="secondary" className="d-flex justify-content-center align-items-center">
-                <Col>
-                  <h1 className=" d-flex justify-content-center align-items-center py-5 my-5">{Title}</h1>
+                <Col className="d-flex flex-column justify-content-center align-items-center">
+                  <h1 className="d-flex justify-content-center py-5 my-5">{Title}</h1>
 
-                  <p><GatsbyImage image={Image} alt="Image" className="pb-5 my-5"/></p>
+                  <BlogImage image={Image} caption={caption} />
 
-                  <div className="blogpost" dangerouslySetInnerHTML={{ __html: html }} style={styleObj} />
+                  <div className="blogpost pt-5" dangerouslySetInnerHTML={{ __html: html }} style={styleObj} />
                 </Col>
               </Row>
             </Container>
