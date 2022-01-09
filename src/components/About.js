@@ -24,9 +24,9 @@ export default function About() {
                 <Col md={6} >
                     
 
-                    <div>
-                        <h2>Hello, World!</h2>
-                        <p>I'm Peter, a self-taught developer who enjoys learning about computer science, artificial intelligence, and data analytics. On this website, I'll write about the things I am learning and show you the projects I'm working on. Check in regularly to see my progress in this fascinating feild!</p>
+                    <div className="d-flex flex-column justify-content-center align-items-center">
+                        <h1 className="p-3 m-3">Hello, World!</h1>
+                        <p className="p-5 m-5" style={{fontSize: '20px'}}>I'm Peter, a self-taught developer who enjoys learning about computer science, artificial intelligence, and data analytics. On this website, I'll write about the things I am learning and show you the projects I'm working on. Check in regularly to see my progress in this fascinating feild!</p>
                     </div>
                     
                 </Col>
