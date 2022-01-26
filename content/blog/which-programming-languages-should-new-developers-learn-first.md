@@ -4,7 +4,7 @@ title: Which Programming Languages Should New Developers Learn First
 date: 2022-01-26T02:14:44.821Z
 description: An article about the best programming languages for new developers
 image: assets/programming-languages.jpg
-caption: Programming Languages List
+caption: A small list of programming languages
 ---
 If you’re just beginning your journey in software development, you may be wondering which language to learn first. With the large amount of languages to learn, it can be hard to determine where to begin. Which language you choose to start with really depends on what your goals are and what you hope to do with programming. If you want to be a web developer, you should focus on languages that will help you design, style, and build modern web apps. If you are more focused on game development, your skill set will be completely different. 
 
